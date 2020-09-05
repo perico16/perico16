@@ -1,18 +1,31 @@
 *{
+   margin: 0;
+   padding: 0;
    
 }
 .cuerpo{
     background-color: dimgray;
 }
+.div1{
+    background-image: url(images/descarga6.jpg);
+    padding: 200px;
+    
+}
 .cajaTitulo {
-    padding: 20px;
-    background-color: darkslategrey;
-    padding-bottom: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-top: -150px;
+    margin-left: 200px;
+    margin-right: -100px;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+
 }
 
 #titulo {
-    color: aqua;
-    text-align: center;
+    color: black;
+    font-family: 'Kufam', cursive;
+    font-size: 50px;
+    border-bottom: 3px solid black;
+    margin-left: 300px;
 }
