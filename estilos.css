@@ -17,7 +17,7 @@
 }
 .cajaTitulo {
     margin-top: -150px;
-    margin-left: 200px;
+    margin-left: 470px;
     margin-right: -100px;
     text-align: right;
     padding-bottom: 20px;
@@ -25,13 +25,62 @@
     
 
 }
+.imagen{
+    width: 120px;
+    height: 60px;
+    padding: 0px;
+    
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: -30px;
+}
+.div11{
+    height: 100px;
+    background-color: white;
+    text-align: left;
+    margin-left: -250px;
+    margin-right: -240px;
+    margin-bottom: 200px;
+    margin-top: -240px;
+    padding: 0px;
+}
+#home1{
+    font-size: 30px;
+    padding: 20px;
+    margin-top: -100px;
+    margin-left: 40px;
+    
+    
+}
+
+.div11 ul{
+    text-align: right;
+    margin-left: 400px;
+    margin-top: -70px;
+    padding-right: 100px;
+    padding-left: 20px;
+  
+    margin-bottom: 30px;
+}
+.div11 nav li{
+    font-size: 20px;
+    display: inline;
+    font-family: 'Kufam', cursive;
+    
+    padding: 9px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    color: black;
+}
 
 #titulo {
     color: black;
     font-family: 'Kufam', cursive;
     font-size: 50px;
     border-bottom: 3px solid black;
-    margin-left: 300px;
+    
 }
 .div2{
     border-top: 5px solid white;
@@ -42,15 +91,17 @@
     background-color: white;
     opacity: 0.75;
     padding-left: 30px;
+    padding: 10px;
     
     
 }
 
-nav ul{
+.div2 nav ul{
     border: 0;
-    margin-top: -15px;
+    margin-top: 0px;
+    padding-left: 30px;
 }
-nav li{
+.div2 nav li{
     font-family: 'Kufam', cursive;
     display: inline;
     padding: 9px;
@@ -61,7 +112,7 @@ nav li{
     transition: 0.5s;
 
 }
-nav li:hover {
+.div2 nav li:hover {
     border-left: 5px solid grey;
     border-right: 5px solid grey;
     cursor: pointer;
@@ -69,6 +120,7 @@ nav li:hover {
     opacity: 0.5;
     
 }
+
 #home{
     padding-right: 10px;
 }
@@ -76,3 +128,5 @@ nav li:hover {
     padding: 20px;
     width: 300px;
 }
+
+
