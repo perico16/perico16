@@ -1,0 +1,122 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-image: url(images/fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    
+}
+.cabeceraJJ{
+    background: rgb(34, 36, 36);
+    width: 100%;
+    height: 100px;
+    
+}
+#home1{
+    font-size: 40px;
+    margin: 30px;
+}
+.imagen1{
+    height: 80px;
+    width: 160px;
+    right: 80%;
+    left: 20%;
+    top: 2%;
+    bottom: 98%;
+    display: flex;
+    position: absolute;
+}
+.buscar{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background-color: rgb(66, 67, 68);
+    position: absolute;
+    left: 80%;
+    top: 5%;
+    border-radius: 40px;
+    width: 200px;
+    
+    
+}
+.buscar_texto{
+    background: none;
+    border: none;
+}
+.elgrandiv{
+    margin-left: 150px;
+}
+.cuerpo{
+    
+    width: 661px;
+    height: 550px;
+    
+}
+.titulo{
+    background: rgb(165, 165, 165);
+    
+    width: 661px;
+    height: 150px;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Kufam', cursive;
+    opacity: 0.8;
+}
+
+.episode{
+    border-radius: 10px;
+    float: left;
+    
+    height: 400px;
+    width: 711px;
+    opacity: 1.0;
+}
+.undervideo{
+    background: rgb(165, 165, 165);
+    margin-top: 50px;
+    
+    width: 711px;
+    height: 200px;
+    opacity: 0.9;
+    padding-top: 3px;
+}
+.undervideo ul{
+    margin-top: 20px;
+    margin-left: 20px;
+    background: rgb(97, 97, 97);
+    border-radius: 30px;
+    padding: 10px;
+    width: 205px;
+    
+}
+.undervideo ul li{
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    font-family: 'Kufam', cursive;
+    color: black;
+   
+}
+.linea{
+    border-right: 1px solid rgb(165, 165, 165);
+    color: darkblue;
+}
+#flecha{
+    padding: 3px;
+    color: darkblue;
+}
+#list{
+    color: darkblue;
+}
+.banner{
+    float: left;
+    width: 149px;
+    height: 500px;
+    background: black;
+    opacity: 0.75;
+}
