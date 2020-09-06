@@ -5,7 +5,7 @@
         <style>
             header{
                 width: 1000px;
-                background-image: url(images/fondojojos.jpg);
+               /*  background-image: url(images/fondojojos.jpg);*/
                 background-position: center;
                 /*background-size: cover;
                 background-attachment: fixed;*/
@@ -18,36 +18,63 @@
                 /*figuras geométricas*/
                 -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
                 clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                border: 10px solid black;
             }
             .contenedor{
                 margin-left: 300px;
             }
             #tortura{
                 display: flex;
+                margin: auto;
+                text-align: center;
+                width: 1000;
             }
+            #cabecera{
+                background-image: url(images/texturamadera.jpg);
+                width: 1050px;
+                padding: 30px;
+                margin: auto;
+            }
+            body{
+                background: #DAD299;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, rgba(112, 247, 141, 0.473), rgba(236, 221, 107, 0.445)), url(images/texturamadera2.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, rgba(124, 243, 150, 0.439), rgba(241, 225, 99, 0.452)), url(images/texturamadera2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                text-align: center;    
+            }
+            p{
+                margin: auto;
+            }
+            
+            
+        
+            
+            
+
                         
         </style>
     </head>
     <body>
-        <header>
-            <div class="contenedor">
-                <nav>
-                    <div class="enlaces">
-                        <a href="oficial.html">oficial</a>
-                        <a href="planes.html">planes</a>
-                        <a href="reglas.html">reglas</a>
-                    </div>
-                </nav>
-                <div class="texto">
-                    <div class="caja">
-                        <h1>RanielB</h1>
-                        <p>topotamadre</p>
-                        <a href="#">learn more</a>
+        <div id="cabecera">
+            <header>
+                <div class="contenedor">
+                    <nav>
+                        <div class="enlaces">
+                            <a href="oficial.html">oficial</a>
+                            <a href="planes.html">planes</a>
+                            <a href="reglas.html">reglas</a>
+                        </div>
+                    </nav>
+                    <div class="texto">
+                        <div class="caja">
+                            <h1>RanielB</h1>
+                            <p>topotamadre</p>
+                            <a href="#">learn more</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-           
-        </header>
+            
+            </header>
+        </div>
         <article">
             <audio src="images/Gangstar Torture Dance FULL SONG (LYRICS) - JoJo_s Bizarre Adventure Golden Wind OST(MP3_160K)_1.mp3" class="musica" autoplay="true" loop controls></audio>
             <div id="tortura">
