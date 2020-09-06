@@ -18,10 +18,7 @@
                 /*figuras geométricas*/
                 -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
                 clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                border: 10px solid black;
-            }
-            .contenedor{
-                margin-left: 300px;
+                border: 10px solid black
             }
             #tortura{
                 display: flex;
@@ -34,6 +31,7 @@
                 width: 1050px;
                 padding: 30px;
                 margin: auto;
+                height: 300px;
             }
             body{
                 background: #DAD299;  /* fallback for old browsers */
@@ -44,9 +42,39 @@
             p{
                 margin: auto;
             }
+            #titulo{
+               font-size: 30px;
+               color:rgba(128, 255, 0, 0.541);
+            }
             
             
+            
+            
+            nav{
+                margin-top: 50px;
+            }
+            nav li{
+               font-family: 'Kufam', cursive;
+               display: inline;
+               padding: 40px;
+               font-size: 30px;
+               font-weight: bold;
+               color: black;
+               transition: 0.5s;
+            
+            }
+            nav li:hover {
+               border-left: 5px solid grey;
+               border-right: 5px solid grey;
+               cursor: pointer;
+               background-color: white;
+               opacity: 0.5;
+            }
         
+
+            
+            
+            
             
             
 
@@ -56,6 +84,7 @@
     <body>
         <div id="cabecera">
             <header>
+                <!--
                 <div class="contenedor">
                     <nav>
                         <div class="enlaces">
@@ -72,8 +101,21 @@
                         </div>
                     </div>
                 </div>
-            
+                -->
+
+                <div id="titulo">
+                    <h1>RanielB</h1>
+                </div>
+
             </header>
+
+            <nav>
+                <ul>
+                    <li><a href="oficial.html" style="text-decoration: none; color: black;">oficial</a></li>
+                    <li><a href="planes.html" style="text-decoration: none; color: black;">planes</a></li>                  
+                    <li><a href="reglas.html" style="text-decoration: none; color: black;">reglas</a></li>                    
+                </ul>
+            </nav>
         </div>
         <article">
             <audio src="images/Gangstar Torture Dance FULL SONG (LYRICS) - JoJo_s Bizarre Adventure Golden Wind OST(MP3_160K)_1.mp3" class="musica" autoplay="true" loop controls></audio>
