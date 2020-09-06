@@ -8,7 +8,9 @@
 }
 .div1{
     background-image: url(images/descarga6.jpg);
-    padding: 200px;
+    padding: 240px;
+    padding-bottom: 0px;
+   
     
 }
 .cajaTitulo {
@@ -28,4 +30,37 @@
     font-size: 50px;
     border-bottom: 3px solid black;
     margin-left: 300px;
+}
+.div2{
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    margin-top: 240px;
+    margin-right: -240px;
+    margin-left: -250px;
+    background-color: white;
+    opacity: 0.75;
+    padding-left: 30px;
+    
+    
+}
+nav ul{
+    border: 0;
+}
+nav li{
+    font-family: 'Kufam', cursive;
+    display: inline;
+    padding: 9px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    color: black;
+    transition: 0.5s;
+}
+nav li:hover {
+    border-left: 5px solid grey;
+    border-right: 5px solid grey;
+    cursor: pointer;
+    background-color: white;
+    opacity: 0.5;
+    
 }
