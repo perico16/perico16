@@ -1,23 +1,24 @@
 *{
    margin: 0;
    padding: 0;
-   
+   border: 1px solid black;
 }
 .cuerpo{
     background-color: dimgray;
 }
 .div1{
+    width: 863px;
     background-image: url(images/descarga6.jpg);
     padding: 240px;
     padding-bottom: 0px;
-    width: 863px;
+    
     
    
     
 }
 .cajaTitulo {
     margin-top: -150px;
-    margin-left: 200px;
+    margin-left: 470px;
     margin-right: -100px;
     text-align: right;
     padding-bottom: 20px;
@@ -26,12 +27,13 @@
 
 }
 
+
 #titulo {
     color: black;
     font-family: 'Kufam', cursive;
     font-size: 50px;
     border-bottom: 3px solid black;
-    margin-left: 300px;
+    
 }
 .div2{
     border-top: 5px solid white;
@@ -42,15 +44,17 @@
     background-color: white;
     opacity: 0.75;
     padding-left: 30px;
+    padding: 10px;
     
     
 }
 
-nav ul{
+.div2 nav ul{
     border: 0;
-    margin-top: -15px;
+    margin-top: 0px;
+    padding-left: 30px;
 }
-nav li{
+.div2 nav li{
     font-family: 'Kufam', cursive;
     display: inline;
     padding: 9px;
@@ -61,7 +65,7 @@ nav li{
     transition: 0.5s;
 
 }
-nav li:hover {
+.div2 nav li:hover {
     border-left: 5px solid grey;
     border-right: 5px solid grey;
     cursor: pointer;
@@ -69,6 +73,7 @@ nav li:hover {
     opacity: 0.5;
     
 }
+
 #home{
     padding-right: 10px;
 }
@@ -76,3 +81,5 @@ nav li:hover {
     padding: 20px;
     width: 300px;
 }
+
+
