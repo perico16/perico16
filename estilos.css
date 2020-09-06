@@ -43,8 +43,10 @@
     
     
 }
+
 nav ul{
     border: 0;
+    margin-top: -15px;
 }
 nav li{
     font-family: 'Kufam', cursive;
@@ -63,4 +65,7 @@ nav li:hover {
     background-color: white;
     opacity: 0.5;
     
+}
+#home{
+    padding-right: 10px;
 }
