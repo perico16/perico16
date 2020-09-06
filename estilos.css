@@ -50,8 +50,6 @@
 }
 
 .div2 nav ul{
-    border: 0;
-    margin-top: 0px;
     padding-left: 30px;
 }
 .div2 nav li{
@@ -60,7 +58,6 @@
     padding: 9px;
     font-size: 20px;
     font-weight: bold;
-    border: 0;
     color: black;
     transition: 0.5s;
 
