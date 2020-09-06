@@ -1,16 +1,17 @@
 *{
    margin: 0;
    padding: 0;
-   
+   border: 1px solid black;
 }
 .cuerpo{
     background-color: dimgray;
 }
 .div1{
+    width: 863px;
     background-image: url(images/descarga6.jpg);
     padding: 240px;
     padding-bottom: 0px;
-    width: 863px;
+    
     
    
     
@@ -25,55 +26,7 @@
     
 
 }
-.imagen{
-    width: 120px;
-    height: 60px;
-    padding: 0px;
-    
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: -30px;
-}
-.div11{
-    height: 100px;
-    background-color: white;
-    text-align: left;
-    margin-left: -250px;
-    margin-right: -240px;
-    margin-bottom: 200px;
-    margin-top: -240px;
-    padding: 0px;
-}
-#home1{
-    font-size: 30px;
-    padding: 20px;
-    margin-top: -100px;
-    margin-left: 40px;
-    
-    
-}
 
-.div11 ul{
-    text-align: right;
-    margin-left: 400px;
-    margin-top: -70px;
-    padding-right: 100px;
-    padding-left: 20px;
-  
-    margin-bottom: 30px;
-}
-.div11 nav li{
-    font-size: 20px;
-    display: inline;
-    font-family: 'Kufam', cursive;
-    
-    padding: 9px;
-    padding-right: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    border: 0;
-    color: black;
-}
 
 #titulo {
     color: black;
