@@ -45,6 +45,23 @@
     
     
 }
+.buscar{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background-color: rgb(217, 225, 235);
+    position: absolute;
+    left: 80%;
+    top: 5%;
+    border-radius: 40px;
+    width: 200px;
+    
+    
+}
+.buscar_texto{
+    background: none;
+    border: none;
+}
 
 
 #titulo {
