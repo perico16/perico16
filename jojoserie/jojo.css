@@ -31,6 +31,22 @@ body{
     display: flex;
     position: absolute;
 }
+.boto{
+    position: absolute;
+    right: 25%;
+    
+    padding: 10px;
+    top: 5%;
+    background: rgb(34, 36, 36);
+    border: 1px solid black;
+    border-radius: 14px;
+    width: 100px;
+}
+.dec{
+    color: white;
+    text-decoration: none;
+    font-family: 'Kufam', cursive; 
+}
 .buscar{
     display: flex;
     justify-content: right;
@@ -71,7 +87,7 @@ body{
 .episode{
     border-radius: 10px;
     float: left;
-    
+    outline: none;
     height: 400px;
     width: 711px;
     opacity: 1.0;
