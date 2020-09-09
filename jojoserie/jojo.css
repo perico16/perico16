@@ -34,7 +34,7 @@ body{
 .boto{
     position: absolute;
     right: 25%;
-    
+    outline: none;
     padding: 10px;
     top: 5%;
     background: rgb(34, 36, 36);
@@ -91,6 +91,7 @@ body{
     height: 400px;
     width: 711px;
     opacity: 1.0;
+    outline: none;
 }
 .undervideo{
     background: rgb(165, 165, 165);
