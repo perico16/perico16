@@ -7,8 +7,6 @@ body{
 }
 .cuerpo{
     text-align: center;
-    
-    
     background: rgb(51, 51, 87);
     width: 25%;
     height: 40%;
@@ -52,6 +50,7 @@ body{
     padding: 10px;
     color: white;
     width: 90px;
+    outline: none;
 }
 .cuerpo input[type="button"]:hover{
     background: black;
