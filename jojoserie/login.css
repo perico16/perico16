@@ -9,7 +9,7 @@ body{
     text-align: center;
     background: rgb(51, 51, 87);
     width: 25%;
-    height: 40%;
+    height: 43%;
     position: absolute;
     left: 37.5%;
     top: 30%;
@@ -54,4 +54,18 @@ body{
 }
 .cuerpo input[type="button"]:hover{
     background: black;
+}
+.signin{
+    margin-top: 10px;
+    font-family: monospace;
+    text-decoration: none;
+    color: dimgrey;
+}
+
+#signin{
+    color: dimgrey;
+    margin-left: 5px;
+}
+#signin:hover{
+    color: white;
 }
