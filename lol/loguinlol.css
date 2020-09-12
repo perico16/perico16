@@ -6,6 +6,9 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+*{
+    box-sizing: border-box;
+}
 .contenedor{
     width: 100%;
     padding: 15px;
