@@ -6,5 +6,7 @@ function contraseñacorrecta() {
         
         document.getElementById("error").innerHTML="Tu contraseña debe tener al menos 8 carácteres";
         
+    } else {
+        document.getElementById("error").innerHTML=""; 
     }
 }
