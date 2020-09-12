@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(3, 247, 255, 0.486) rgba(255, 25, 0, 0.692)), url(images/lolfondo.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.425), rgba(255, 25, 0, 0.63)), url(images/lolfondo.jpg);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: rgba(1, 1, 43, 0.918);
+    font-size: 40px;
+}
+input[type="text"],
+input[type="email"],
+input[type="contraseña"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.inputscontenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.buttom{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: rgba(1, 1, 43, 0.918);
+    padding: 15px, 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttom:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: rgba(1, 1, 43, 0.918);
+}
+.link:hover{
+    background: cadetblue;
+}
+
+@media(min-width:768px){
+
+    .formulario{
+        margin:auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+
+}
