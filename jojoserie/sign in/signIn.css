@@ -8,11 +8,12 @@ body{
 .cuerpo{
     text-align: center;
     background: rgb(51, 51, 87);
-    width: 25%;
-    height: 43%;
+    width: 30%;
+    height: 53%;
     position: absolute;
-    left: 37.5%;
-    top: 30%;
+    left: 35%;
+    top: 25%;
+    bottom: 25%;
     border-radius: 20px;
     border: 3px solid rgb(2, 2, 73);
     
@@ -26,24 +27,24 @@ body{
     font-family: monospace;
     font-size: xx-large;
 }
-.cuerpo input[type="text"], input[type = "password"]{
+.cuerpo input[type="text"], input[type = "password"], input[type="email"]{
     background: none;
     border: 2px solid rgb(2, 2, 73);
     border-radius: 24px;
     padding: 14px 10px;
     margin: 10px auto;
     text-align: center;
-    width: 200px;
+    width: 250px;
     color: white;
     transition: 0.25s;
     outline: none;
 }
-.cuerpo input[type="text"]:focus, input[type = "password"]:focus{
-    width: 250px;
+.cuerpo input[type="text"]:focus, input[type = "password"]:focus, input[type="email"]:focus{
+    width: 300px;
     border: 2px solid rgb(0, 255, 34);
     border-radius: 24px;
 }
-.cuerpo input[type="button"]{
+.cuerpo input[type="submit"]{
     background: rgb(51, 51, 87);
     border: 1px solid black;
     border-radius: 20px;
@@ -52,7 +53,7 @@ body{
     width: 90px;
     outline: none;
 }
-.cuerpo input[type="button"]:hover{
+.cuerpo input[type="submit"]:hover{
     background: black;
 }
 #error{
@@ -62,4 +63,8 @@ body{
     font-size: 10px;
     font-family: monospace;
     transition: 0.5s;
+}
+#error1{
+    color: red;
+    font-family: monospace;
 }
